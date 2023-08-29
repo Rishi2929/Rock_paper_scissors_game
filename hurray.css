@@ -1,0 +1,62 @@
+
+body {
+    background: #89C15E;
+
+    /* Ensure vertical centering */
+}
+
+.image {
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    text-align: center; /* Center the image horizontally */
+}
+.image img{
+    position: center;
+}
+h1{
+    text-align: center;
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 41px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 4.1px;
+}
+/* styles.css */
+.curve-container {
+    position: absolute;
+    width: 30opx; /* Adjust the size of the circular container */
+    height: 300px;
+    margin: 0 auto; /* Center the container horizontally */
+    /* border: 2px solid #333; Just for visualization */
+    border-radius: 50%; /* Make the container circular */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curve-container img {
+    position: absolute;
+    transform-origin: center bottom;
+    transition: transform 0.3s ease;
+}
+.playagain{
+    width: 8rem;
+    height: 2rem;
+    background-color: white;
+    margin-top: 3%;
+    margin-left: 45%;
+    margin-right: 46%;
+    padding-top: 0.6rem;
+    padding-left: 2rem;
+    border-radius: 5px;
+}
+.playagain a {
+    text-decoration: none; /* Remove underline */
+    color: #6B6B6B; 
+}

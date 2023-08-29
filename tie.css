@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    background-color: #8CC461;;
+}
+.rectangle {
+    width: 1000px;
+    height: 145px;
+    background-color: transparent;
+    border: 1px solid white; 
+    border-radius: 8px; 
+    position: center;
+    margin-top: 4rem;
+    margin-left: 11rem;
+    display: flex;
+}
+.rectangle h1{
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.computer_score{
+    width: 139px;
+    height: 128px;
+    background-color: white;
+    margin-top:5px;
+    margin-left: 30rem;
+    border-radius: 10px;
+}
+.line{
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+
+ h2{
+    color: #656565;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.7px; 
+margin-left: 5px;
+}
+.Your_score{
+    width: 139px;
+    height: 128px;
+    background-color: white;
+    margin-top:5px;
+    margin-left: 2rem;
+    border-radius: 10px;
+}
+
+
+
+
+.hidden{
+    display: none;
+    
+}
+#rulesMenu{
+    width: 278px;
+    height: 350px;
+    background:#004429;
+    border: 5px solid white; 
+    border-radius: 8px; 
+    position: relative;
+    margin-top: -19rem;
+    margin-left: 65rem;
+    align-items: center;
+    position: absolute;
+}
+
+ul {
+    list-style: none; /* Remove default list styles */
+    padding-left: 20px; /* Add some left padding for spacing */
+}
+
+li {
+    position: relative; /* Set position to relative */
+    padding-left: 20px; /* Add space between bullet and content */
+    padding-right: 20px;
+    margin-bottom: 15px; /* Add spacing between list items */
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+
+    
+}
+
+li:before {
+    content: ''; /* Empty content generated for the bullet */
+    position: absolute;
+    left: 0;
+    top: 6px; /* Adjust vertical positioning */
+    width: 10px; /* Width of the rectangle bullet */
+    height: 10px; /* Height of the rectangle bullet */
+    background-color: #FFD600; /* Bullet color */
+    border-radius: 2px; /* Rounded corners for the rectangle */
+}
+h3{
+    margin-left: 4rem;
+    color: #FFF;
+    font-family: Roboto;
+
+   font-size: 29px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+#showRules{
+    position: absolute;
+    background:transparent;
+    border-radius: 8px; 
+    /* position: fixed; */
+    margin-top: 65vh;
+    margin-left: 90vw;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0;
+    border: 2px solid white; /* Specify border style, width, and color */
+    background-color: transparent;
+    color: white;
+    width: 6rem;
+
+    color: #FFF;
+font-family: Roboto;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: 82.187%; /* 17.259px */
+letter-spacing: 2.1px;
+}
+
+ p{
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+
+    
+color: #252525;
+text-align: center;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.computer_score h2{
+    margin-left:15px ;
+}
+ .computer_score h4{
+    color: #656565;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.7px; 
+    margin-left: 5px;
+    margin-left:30px ;
+    margin-top: -5px;
+}
+.Your_score h2{
+    margin-left:40px ;
+
+}
+.Your_score h4{
+    color: #656565;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.7px; 
+    margin-left: 5px;
+    margin-left:35px ;
+    margin-top: -5px;
+}
+
+.playagain{
+    width: 8rem;
+    height: 2rem;
+    background-color: white;
+    margin-top: 35%;
+    margin-left: 45%;
+    margin-right: 46%;
+    padding-top: 0.6rem;
+    padding-left: 2rem;
+    border-radius: 5px;
+}
+.playagain a {
+    text-decoration: none; /* Remove underline */
+    color: #6B6B6B; 
+}
+
+
+
+
+
+
+
+
+

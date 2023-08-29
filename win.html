@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/Group 1.png" type="image/x-icon">
+    <title>Rock Paper and Scissors</title>
+    <link href="win.css" rel="stylesheet">
+</head>
+<body>
+    <div class="rectangle">
+        <div>
+            <h1>ROCK</h1>
+            <h1>PAPER</h1>
+            <h1>SCISSORS</h1>
+        </div>
+
+        <div class="computer_score" id="pc">
+            <h2>COMPUTER </h2>
+            <h4>SCORE</h4>
+            <p>0</p>
+
+        </div>
+        <div class="Your_score" id="player">
+            <h2>YOUR </h2>
+            <h4>SCORE</h4>
+            <p>0</p>
+        </div>
+    </div>
+    
+        <button id="click" onclick="redirectToNextPage()">NEXT</button>
+        <button id="showRules" onclick="toggleRulesMenu()">Rules</button>
+        <div class="hidden" id="rulesMenu">
+            <h3>Game Rules</h3>
+            <ul>
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                <li>If both players lay down the same hand, each player lays down another hand</li>
+            </ul>
+        </div>
+        <div>YOU WIN</div>
+        <div class="playagain">
+            <a href="./index.html" >PLAY AGAIN</a>
+        </div>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>
