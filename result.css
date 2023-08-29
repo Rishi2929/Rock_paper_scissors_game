@@ -56,25 +56,48 @@ margin-left: 5px;
     border-radius: 10px;
 }
 
-
-
-
-.hidden{
-    display: none;
-    
-}
-#rulesMenu{
-    width: 278px;
-    height: 350px;
-    background:#004429;
-    border: 5px solid white; 
-    border-radius: 8px; 
-    position: relative;
-    margin-top: 9rem;
-    margin-left: 70rem;
+.triangle {
+    display: flex;
     align-items: center;
-    position: absolute;
+    height: 400px;
+    width: 500px;
 }
+.blue{
+    margin-left: 35rem;
+    display: flex;  
+    align-items: center; 
+    cursor: pointer;
+}
+.blue img {
+    height: auto; 
+    margin-left: -7.5rem ; 
+}
+
+.purple{
+    margin-left: 18rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.purple img{
+    margin-left:-6rem;
+}
+
+.yellow{
+    margin-left: 45rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+
+}
+.yellow img{
+    margin-left: -7.3rem;
+}
+
+
+
 
 ul {
     list-style: none; /* Remove default list styles */
@@ -116,16 +139,32 @@ h3{
    font-weight: 500;
    line-height: normal;
 }
-#showRules{
+.hidden{
+    display: none;
+    
+}
+#rulesMenu{
+    width: 278px;
+    height: 350px;
+    background:#004429;
+    border: 5px solid white; 
+    border-radius: 8px; 
+    position: relative;
+    margin-top: 9rem;
+    margin-left: 68rem;
+    align-items: center;
     position: absolute;
+}
+#showRules{
     background:transparent;
     border-radius: 8px; 
-    /* position: fixed; */
-    margin-top: 65vh;
-    margin-left: 80vw;
+    position: fixed;
+    margin-top: 33rem;
+    margin-left: 80rem;
     padding: 10px;
     align-items: center;
     box-shadow: 0;
+
     border: 2px solid white; /* Specify border style, width, and color */
     background-color: transparent;
     color: white;
@@ -201,37 +240,6 @@ line-height: normal;
     text-decoration: none; /* Remove underline */
     color: #6B6B6B; 
 }
-#click{
-    /* position: absolute;
-    margin-left: 80vw;
-    margin-top: 65vh;
-    box-shadow: 0;
-    background-color: transparent; */
-
-    position: absolute;
-    background:transparent;
-    border-radius: 8px; 
-    /* position: fixed; */
-    margin-top: 65vh;
-    margin-left: 90vw;
-    padding: 10px;
-    align-items: center;
-    box-shadow: 0;
-    border: 2px solid white; /* Specify border style, width, and color */
-    background-color: transparent;
-    color: white;
-    width: 6rem;
-    color: #FFF;
-font-family: Roboto;
-font-size: 17px;
-font-style: normal;
-font-weight: 600;
-line-height: 82.187%; /* 17.259px */
-letter-spacing: 2.1px;
-    
-}
-
-
 
 
 

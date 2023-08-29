@@ -97,22 +97,7 @@ margin-left: 5px;
 }
 
 
-.hidden{
-    display: none;
-    
-}
-#rulesMenu{
-    width: 278px;
-    height: 350px;
-    background:#004429;
-    border: 5px solid white; 
-    border-radius: 8px; 
-    position: relative;
-    margin-top: -19rem;
-    margin-left: 65rem;
-    align-items: center;
-    position: absolute;
-}
+
 
 ul {
     list-style: none; /* Remove default list styles */
@@ -154,12 +139,28 @@ h3{
    font-weight: 500;
    line-height: normal;
 }
+.hidden{
+    display: none;
+    
+}
+#rulesMenu{
+    width: 278px;
+    height: 350px;
+    background:#004429;
+    border: 5px solid white; 
+    border-radius: 8px; 
+    position: relative;
+    margin-top: -15rem;
+    margin-left: 68rem;
+    align-items: center;
+    position: absolute;
+}
 #showRules{
     background:transparent;
     border-radius: 8px; 
     position: fixed;
-    margin-top: 7rem;
-    margin-left: 75rem;
+    margin-top: 8.5rem;
+    margin-left: 80rem;
     padding: 10px;
     align-items: center;
     box-shadow: 0;
